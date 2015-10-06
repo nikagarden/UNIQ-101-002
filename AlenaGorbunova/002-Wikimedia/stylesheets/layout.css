@@ -1,0 +1,46 @@
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 215px;
+  letter-spacing: -1.3px;
+}
+
+p {
+  margin-top: 227px;
+  font-size: 22px;
+  line-height: 33.5px;
+  letter-spacing: 0.16px;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 22px;
+  line-height: 33.5px;
+  letter-spacing: 0.16px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 46px;
+  letter-spacing: -0.4px;
+}
+
+h3 {
+  margin-top: 62px;
+  font-size: 31px;
+  color: darkgray;
+  letter-spacing: -0.06px;
+}
+
+li {
+  margin-top: 0px;
+  font-size: 22px;
+  letter-spacing: 0.16px;
+  line-height: 33.9px;
+}
+
+a {
+  color: black;
+}
