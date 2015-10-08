@@ -2,7 +2,7 @@ body {
   width: 700px;
   height: 17386px;
   margin: 0 auto;
-  /*background-image: url(dom_narkomfina_bg.jpg);
+  /*background-image: url(../images/dom_narkomfina_bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;*/
 }
@@ -16,7 +16,7 @@ p, li {
 }
 
 p:first-of-type {
-  margin-top: 226px;
+  margin-top: 230px;
 }
 
 h2 + p {
