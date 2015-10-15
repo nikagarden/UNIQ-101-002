@@ -1,0 +1,34 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 100vh;
+  padding: 40px;
+  background-color: black;
+}
+
+#menuIcon {
+  width: 24px;
+}
+
+#menuIcon div {
+  height: 3px;
+  background-color: white;
+}
+
+#menuIcon div:nth-child(2) {
+  margin: 4px 0;
+}
+
+/*#menuIcon div:first-child {
+  margin-bottom: 4px;
+}
+
+#menuIcon div:last-child {
+  margin-top: 4px;
+}*/
+
+nav a {
+  color: white;
+}
