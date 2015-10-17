@@ -24,17 +24,17 @@ h2 + p {
 }
 
 h3 + p {
-  margin-top: 28px
+  margin-top: 29px;
 }
 
 h2 + ul {
-  margin-top: -2px
+  margin-top: -2px;
 }
 
 h2 + h3 {
-  margin-top: 59px
+  margin-top: 61px;
 }
 
 h2 + ul {
-  margin-top: -1.8px
+  margin-top: -1.8px;
 }
