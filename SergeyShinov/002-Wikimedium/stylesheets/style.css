@@ -1,2 +1,4 @@
-@import "../stylesheets/basics.css";
-@import "../stylesheets/layout.css";
+@import 'reset.css';
+@import 'basics.css';
+@import 'nav.css';
+@import 'layout.css';
