@@ -1,0 +1,28 @@
+#welcome {
+  position: relative;
+  display: flex;
+  height: 680px;
+  background-color: blue;
+  color: white;
+  transition: all 3s;
+}
+
+#welcome:hover {
+  background-color: red;
+}
+
+#welcome h1 {
+  margin: auto;
+  text-align: center;
+  font-size: 60px;
+  line-height: 1.5em;
+}
+
+#welcome i {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+}
