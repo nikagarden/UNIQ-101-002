@@ -1,0 +1,12 @@
+#superstar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 680px;
+}
+
+#superstar .profileCard {
+  width: 100px;
+  height: 300px;
+  background-color: blue;
+}
