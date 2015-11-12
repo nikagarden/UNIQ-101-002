@@ -1,13 +1,115 @@
 #superstar {
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+
   height: 680px;
+  padding: 40px 0;
+  background-color: rgba(0,0,0,.01);
+  border-top: 1px solid rgba(0, 0, 0,.05);
   /*background-color: pink;*/
 }
 
+#superstar h2 {
+  width: 500px;
+  height: 89px;
+  /*margin: 0 auto;*/
+  background-image: url(../images/logo-superstar.svg);
+}
+
+#superstar .cardsWrapper {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-wrap: space-around;
+  -ms-flex-wrap: distribute;
+  justify-content: space-around;
+
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  width: 80%;
+}
+
 #superstar .profileCard {
-  width: 100px;
-  height: 300px;
-  background-color: blue;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#superstar .background {
+  height: 100px;
+  border-color: green;
+
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+#superstar #danila .background {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffdbe5+0,da3e6b+100 */
+  background: #ffdbe5; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffdbe5 0%, #da3e6b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffdbe5 0%,#da3e6b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffdbe5 0%,#da3e6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdbe5', endColorstr='#da3e6b',GradientType=0 ); /* IE6-9 */
+}
+
+#superstar #vadim .background {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffdbe5+0,da3e6b+100 */
+  background: #ffdbe5; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ced4ff 0%, #525677 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ced4ff 0%,#525677 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ced4ff 0%,#525677 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdbe5', endColorstr='#da3e6b',GradientType=0 ); /* IE6-9 */
+}
+
+#superstar #anton .background {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffdbe5+0,da3e6b+100 */
+  background: #ffdbe5; /* Old browsers */
+  background: -moz-linear-gradient(top,  #c9fffe 0%, #49a09f 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #c9fffe 0%,#49a09f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #c9fffe 0%,#49a09f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdbe5', endColorstr='#da3e6b',GradientType=0 ); /* IE6-9 */
+}
+
+#superstar .avatar {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 60px;
+  left: 110px;
+  border: 2px solid white;
+  background-color: green;
+  background-size: cover;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
 }
