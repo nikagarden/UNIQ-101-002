@@ -46,17 +46,33 @@
 }
 
 #superstar .profileCard {
+  position: relative;
   width: 300px;
   height: 400px;
   background-color: white;
+  cursor: pointer;
 
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow:    0px 0px 10px 0px rgba(0,0,0,0.15);
+  box-shadow:         0px 0px 10px 0px rgba(0,0,0,0.15);
 
   -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  -moz-border-radius:    5px;
+  border-radius:         5px;
+
+  -webkit-transition: all .3s ease-out;
+  -moz-transition:    all .3s ease-out;
+  -ms-transition:     all .3s ease-out;
+  -o-transition:      all .3s ease-out;
+  transition:         all .3s ease-out;
+}
+
+#superstar .profileCard:hover {
+  -moz-transform:    scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform:      scale(1.1);
+  -ms-transform:     scale(1.1);
+  transform:         scale(1.1);
 }
 
 #superstar .background {
@@ -64,8 +80,8 @@
   border-color: green;
 
   -webkit-border-radius: 5px 5px 0 0;
-  -moz-border-radius: 5px 5px 0 0;
-  border-radius: 5px 5px 0 0;
+  -moz-border-radius:    5px 5px 0 0;
+  border-radius:         5px 5px 0 0;
 }
 
 #superstar #danila .background {
@@ -101,8 +117,10 @@
   height: 80px;
   top: 60px;
   left: 110px;
+  z-index: 1;
   border: 2px solid white;
-  background-color: green;
+
+  background-color: gray;
   background-size: cover;
 
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
@@ -112,4 +130,37 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
+}
+
+#superstar #danila .avatar {
+  background-image: url(../images/danila.jpg);
+}
+
+#superstar #vadim .avatar {
+  background-image: url(../images/vadim.jpg);
+}
+#superstar #anton .avatar {
+  background-image: url(../images/anton.jpg);
+}
+
+.info {
+  padding: 70px 25px 25px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.info h3 {
+  font-size: 20px;
+}
+
+.info h4 {
+  min-height: 32px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.info p {
+  margin-top: 46px;
+  font-size: 24px;
 }
