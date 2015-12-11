@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  background-color: #f9f9fa;
+  background-image: url(../images/background.png) no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sans {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.caption {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
