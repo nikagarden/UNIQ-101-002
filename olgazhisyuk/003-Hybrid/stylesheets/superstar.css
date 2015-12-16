@@ -43,17 +43,33 @@
 }
 
 #superstar .profileCard {
+  position: relative;
   width: 300px;
   height: 400px;
   background-color: white;
+  cursor: pointer;
 
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow:    0px 0px 10px 0px rgba(0,0,0,0.15);
+  box-shadow:         0px 0px 10px 0px rgba(0,0,0,0.15);
 
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+#superstar .profileCard:hover {
+  -moz-transform:    scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform:      scale(1.1);
+  -ms-transform:     scale(1.1);
+  transform:         scale(1.1);
 }
 
 #superstar .background {
@@ -97,6 +113,50 @@
   position: absolute;
   width: 80px;
   height: 80px;
-  top: left;
-  background-color: green;
+  top: 60px;
+  left: 110px;
+  background-color: white;
+  z-index: 1;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  border: 2px solid white;
+  background-size: cover;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow:    0px 0px 10px 0px rgba(0,0,0,0.15);
+  box-shadow:         0px 0px 10px 0px rgba(0,0,0,0.15);
+}
+
+#superstar #danila .avatar {
+  background-image: url(../images/danila.jpg);
+
+}
+
+#superstar #vadim .avatar {
+  background-image: url(../images/vadim.jpg);
+}
+
+#superstar #anton .avatar {
+  background-image: url(../images/anton.jpg);
+}
+
+#superstar .info {
+  text-align: center;
+  padding: 70px 20px 20px;
+  line-height: 1.2;
+}
+
+#superstar .info h3 {
+  font-size: 20px;
+}
+
+#superstar .info h4 {
+  min-height: 32px;
+  margin: 10px 0 46px;
+  font-size: 14px;
+}
+
+#superstar .info p {
+  font-size: 24px;
 }
