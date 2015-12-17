@@ -16,10 +16,6 @@ p {
 }
 
 
-body {
-  min-width: 940px;
-}
-
 #welcome,
 #about,
 #portfolio {
@@ -30,7 +26,6 @@ body {
 #about header,
 #about article,
 #portfolio header {
-  width: 900px;
   margin: 0 auto;
 }
 
@@ -45,24 +40,17 @@ body {
 #welcome section {
   height: 500px;
   background-image: url(../images/header-bg.jpg);
-  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 #welcome aside {
   box-sizing: border-box;
   float: left;
-  width: 148px;
-  height: 148px;
   background-image: url(../images/userpic.jpg);
   background-size: cover;
-  margin-top: -64px;
   border: 4px solid white;
   border-radius: 5px;
-}
-
-#welcome h1,
-#welcome p {
-  margin-left: 175px;
 }
 
 #welcome footer {
@@ -81,28 +69,16 @@ body {
   margin-top: 84px;
 }
 
-#about #promo {
-  float: right;
+#about #clock {
+  width: 340px;
 }
 
-#about #clock {
-  float: left;
-  width: 340px;
-  margin: 80px 100px 0 -60px;
-}
 
 /*  Portfolio Section  */
 
 .works li {
   position: relative;
-  width: 33.3333%;
   overflow: hidden;
-  cursor: pointer;
-}
-
-.works li:hover figcaption {
-  margin-top: -86px;
-  opacity: 1;
 }
 
 .works img {
@@ -116,8 +92,6 @@ body {
   padding: 20px;
   background-color: rgba(0, 0, 0, .6);
   color: white;
-  transition: all .3s ease-out;
-  opacity: 0;
 }
 
 .works h3 {
@@ -134,10 +108,6 @@ body {
 
 #inline li {
   display: inline-block;
-}
-
-#flex {
-  display: flex;
 }
 
 
@@ -165,4 +135,127 @@ body {
 
 #vk {
   background-image: url(../images/social-vk.png);
+}
+
+
+
+/* Desktop Version */
+
+@media all and (min-width: 401px) {
+
+  body {
+    min-width: 940px;
+  }
+
+  #welcome footer,
+  #about header,
+  #about article,
+  #portfolio header {
+    width: 900px;
+  }
+
+
+  /* Welcome Section */
+
+  #welcome section {
+    background-attachment: fixed;
+  }
+
+  #welcome aside {
+    width: 148px;
+    height: 148px;
+    margin-top: -64px;
+  }
+
+  #welcome h1,
+  #welcome p {
+    margin-left: 175px;
+  }
+
+
+  /*  About Section  */
+
+  #about #promo {
+    float: right;
+  }
+
+  #about #clock {
+    float: left;
+    margin: 80px 100px 0 -60px;
+  }
+
+
+  /* Portfolio Section */
+
+  .works li {
+    width: 33.3333%;
+    cursor: pointer;
+  }
+
+  .works li:hover figcaption {
+    margin-top: -86px;
+    opacity: 1;
+  }
+
+  .works figcaption {
+    transition: all .3s ease-out;
+    opacity: 0;
+  }
+
+  #flex {
+    display: flex;
+  }
+}
+
+
+/* Mobile Version */
+
+@media all and (max-width: 400px) {
+
+  body {
+    min-width: 400px;
+  }
+
+  #welcome footer,
+  #about header,
+  #about article,
+  #portfolio header {
+    width: 360px;
+  }
+
+
+  /* Welcome Section */
+
+  #welcome aside {
+    width: 64px;
+    height: 64px;
+    margin-top: -26px;
+  }
+
+  #welcome h1 {
+    margin: 6px 0 0 75px;
+  }
+
+
+  /*  About Section  */
+
+  #about img {
+    margin: 0 auto;
+  }
+
+  #about #promo {
+    width: 380px;
+  }
+
+  #about #clock {
+    margin-top: 80px;
+  }
+
+
+  /* Portfolio Section */
+
+  .works figcaption {
+    margin-top: -86px;
+  }
+
 }
