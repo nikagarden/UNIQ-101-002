@@ -1,0 +1,43 @@
+#iphones {
+  height: 525px;
+  padding-top: 100px;
+}
+
+#iphones:hover figure {
+  padding-top: 60px;
+}
+
+#iphones h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+#iphones figure {
+  position: relative;
+  overflow: hidden;
+  width: 420px;
+  height: 345px;
+  padding-top: 100px;
+  margin: 0 auto;
+  transition: all 0.3s;
+}
+
+#iphones .iphone {
+  position: absolute;
+  background-size: cover;
+}
+
+#iphone1 {
+  width: 400px;
+  height: 400px;
+  margin-left: -55px;
+  background-image: url(../images/iphone1.png);
+}
+
+#iphone2 {
+  width: 445px;
+  height: 445px;
+  margin-top: -37px;
+  margin-left: 55px;
+  background-image: url(../images/iphone2.png);
+}
