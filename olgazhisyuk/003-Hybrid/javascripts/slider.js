@@ -12,4 +12,6 @@ $(function() {
   $('#project3').on('click', function() {
     $('#projectsWrapper').css('margin-left', '-200vw');
     $('#circlesWrapper li').removeClass('current');
-    $(this).addClass('current
+    $(this).addClass('current');
+  });
+});
