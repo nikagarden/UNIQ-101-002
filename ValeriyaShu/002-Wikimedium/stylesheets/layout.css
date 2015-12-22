@@ -1,6 +1,7 @@
 h1, h2, h3 {
   font-weight: bold;
   letter-spacing: -0.1px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -24,10 +25,13 @@ h3 {
   color: rgba(0,0,0,0.44);
 }
 
-p, li {
+p,
+section li {
   font-size: 22px;
   line-height: 1.5;
   letter-spacing: 0.16px;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+
 }
 
 p {
@@ -62,18 +66,4 @@ section a {
 .articleGroup {
   width: 700px;
   margin: 0 auto;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 320px;
-  height: 100vh;
-  background-color: black;
-  padding: 40px;
-}
-
-nav a {
-  color: white;
 }
