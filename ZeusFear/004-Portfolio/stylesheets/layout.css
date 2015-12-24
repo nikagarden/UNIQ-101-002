@@ -39,7 +39,7 @@ p {
 /*Welcome Section*/
 
 #welcome section {
-  background-image: url(../images/header-bg.jpg);
+  background-image: url(../images/Zeus_art.jpg);
   height: 500px;
   background-size: cover;
   background-position: center;
@@ -47,11 +47,11 @@ p {
 
 #welcome aside {
   float: left;
-  background-image: url(../images/userpic.jpg);
+  background-image: url(../images/zeus.jpg);
   background-size: cover;
 
   box-sizing: border-box;
-  border: 4px solid white;
+  border: 4px solid lightgrey;
   border-radius: 5px;
 }
 
@@ -160,6 +160,7 @@ p {
     width: 900px;
   }
 
+
   /*Welcome Section*/
   #welcome section {
     background-attachment: fixed;
@@ -177,6 +178,7 @@ p {
     margin-left: 175px;
   }
 
+
   /*About Section*/
 
   #about #promo {
@@ -187,6 +189,7 @@ p {
     float: left;
     margin: 80px 100px 0 -60px;
   }
+
 
   /*Portfolio Section*/
   .works li {
@@ -202,14 +205,10 @@ p {
     opacity: 1;
   }
 
-
   .works figcaption {
     transition: all .3s ease-out;
     opacity: 0;
   }
-
-
-
 }
 
 
