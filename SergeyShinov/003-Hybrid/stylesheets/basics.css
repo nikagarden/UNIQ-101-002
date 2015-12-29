@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sans {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.caption {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}

@@ -1,0 +1,149 @@
+#superstar {
+  padding-top: 100px;
+  background-color: rgba(0,0,0,.01);
+  border-top: 1px solid rgba(0,0,0,.05);
+}
+
+#superstar h2 {
+  width: 500px;
+  height: 89px;
+  margin: 0 auto;
+  background-image: url(../images/logo-superstar.svg);
+}
+
+#superstar section {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+#superstar .profileCard {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  cursor: pointer;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#superstar .profileCard:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#superstar .background {
+  height: 100px;
+
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+#superstar .avatar {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 60px;
+  left: 110px;
+  border: 2px solid white;
+  background-size: cover;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+#danila .background {
+  background: #ffdbe5; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffdbe5 0%, #da3e6b 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffdbe5), color-stop(100%,#da3e6b)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #ffdbe5 0%,#da3e6b 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #ffdbe5 0%,#da3e6b 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #ffdbe5 0%,#da3e6b 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #ffdbe5 0%,#da3e6b 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdbe5', endColorstr='#da3e6b',GradientType=0 ); /* IE6-9 */
+}
+
+#danila .avatar {
+  background-image: url(../images/danila.jpg);
+}
+
+#vadim .background {
+  background: #ced4ff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ced4ff 0%, #525677 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ced4ff), color-stop(100%,#525677)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #ced4ff 0%,#525677 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #ced4ff 0%,#525677 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #ced4ff 0%,#525677 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #ced4ff 0%,#525677 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ced4ff', endColorstr='#525677',GradientType=0 ); /* IE6-9 */
+}
+
+#vadim .avatar {
+  background-image: url(../images/vadim.jpg);
+}
+
+#anton .background {
+  background: #c9fffe; /* Old browsers */
+  background: -moz-linear-gradient(top,  #c9fffe 0%, #49a09f 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c9fffe), color-stop(100%,#49a09f)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #c9fffe 0%,#49a09f 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #c9fffe 0%,#49a09f 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #c9fffe 0%,#49a09f 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #c9fffe 0%,#49a09f 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9fffe', endColorstr='#49a09f',GradientType=0 ); /* IE6-9 */
+}
+
+#anton .avatar {
+  background-image: url(../images/anton.jpg);
+}
+
+.info {
+  padding: 70px 25px 25px;
+  text-align: center;
+}
+
+.info h3 {
+  font-size: 20px;
+}
+
+.info h4 {
+  min-height: 32px;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.info p {
+  margin-top: 46px;
+  font-size: 24px;
+}
