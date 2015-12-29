@@ -34,11 +34,10 @@ p {
 }
 
 
-
-/* Wecome Section */
+/* Welcome Section */
 
 #welcome section {
-  height: 500px;
+  height: 650px;
   background-image: url(../images/header-bg.jpg);
   background position: center;
   background-size: cover;
@@ -58,6 +57,7 @@ p {
   padding: 16px 0;
 }
 
+
 /* About Section */
 
 #about {
@@ -72,14 +72,13 @@ p {
   width: 340px;
 }
 
+
 /* Portfolio Section */
 
 .works li {
   position: relative;
   overflow: hidden;
 }
-
-
 
 .works img {
   width: 100%;
@@ -115,6 +114,7 @@ p {
   width: 100%;
 }
 
+
 /* Contacts Section */
 
 #contacts {
@@ -142,7 +142,6 @@ p {
 }
 
 
-
 /* Desktop Version */
 
 @media all and (min-width: 401px) {
@@ -157,7 +156,8 @@ p {
     width: 900px;
   }
 
-  /* Welcome section*/
+
+  /* Desktop Welcome section*/
 
   #welcome section {
     background-attachment: fixed;
@@ -175,7 +175,7 @@ p {
   }
 
 
-  /* About Section */
+  /* Desktop About Section */
 
   #about #promo {
     float: right;
@@ -186,7 +186,7 @@ p {
     margin: 80px 100px 0 -60px;
   }
 
-  /* Portfolio section */
+  /* Desktop Portfolio section */
 
   .works li {
     width: 33.3333%;
@@ -225,7 +225,7 @@ p {
     width: 360px;
   }
 
-  /* Welcome section*/
+  /* Mobile Welcome section*/
 
   #welcome aside {
     height: 64px;
@@ -238,7 +238,7 @@ p {
   }
 
 
-  /* About Section */
+  /* Mobile About Section */
 
   #about img {
     margin: 0 auto;
@@ -252,7 +252,7 @@ p {
     margin-top: 80px;
   }
 
-  /* Portfolio section, mobile */
+  /* Mobile Portfolio section */
 
   .works li:hover figcaption {
     margin-top: -86px;
