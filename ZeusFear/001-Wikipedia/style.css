@@ -1,0 +1,43 @@
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 213px;
+  letter-spacing: -1.5px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.16px;
+}
+
+p {
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 45px;
+}
+h3 {
+  color: gray;
+  font-size: 31px;
+  margin-top: 58px;
+}
+ul {
+  letter-spacing: 0.16px;
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
+li {
+  margin-top: -.6px;
+}
+
+h4 {
+  color: gray;
+  font-size: 31px;
+  margin-top: 60px;
+}
