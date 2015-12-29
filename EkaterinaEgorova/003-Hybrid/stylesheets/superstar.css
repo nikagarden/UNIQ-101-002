@@ -1,0 +1,161 @@
+#superstar {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  height: 680px;
+  padding: 40px 0;
+  background-color: rgba(0,0,0,.01);
+}
+
+#superstar h2 {
+  width: 500px;
+  height: 89px;
+  background-image: url(../images/logo-superstar.svg);
+}
+
+#superstar .cardsWrapper {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  width: 80%;
+}
+
+#superstar .profileCard {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  cursor: pointer;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow:    0px 0px 10px 0px rgba(0,0,0,0.15);
+  box-shadow:         0px 0px 10px 0px rgba(0,0,0,0.15);
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius:    5px;
+  border-radius:         5px;
+
+  -webkit-transition: all .3s ease-out;
+  -moz-transition:    all .3s ease-out;
+  -ms-transition:     all .3s ease-out;
+  -o-transition:      all .3s ease-out;
+  transition:         all .3s ease-out;
+}
+
+#superstar .profileCard:hover {
+  -moz-transform:    scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform:      scale(1.1);
+  -ms-transform:     scale(1.1);
+  transform:         scale(1.1);
+}
+
+#superstar .background {
+  height: 100px;
+  background-color: green;
+
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius:    5px 5px 0 0;
+  border-radius:         5px 5px 0 0;
+}
+
+#superstar #danila .background {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffdbe5+0,da3e6b+100 */
+  background: rgb(255,219,229); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,219,229,1) 0%, rgba(218,62,107,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,219,229,1) 0%,rgba(218,62,107,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,219,229,1) 0%,rgba(218,62,107,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdbe5', endColorstr='#da3e6b',GradientType=0 ); /* IE6-9 */
+}
+
+#superstar #vadim .background {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ced4ff+0,525677+100 */
+  background: rgb(206,212,255); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(206,212,255,1) 0%, rgba(82,86,119,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(206,212,255,1) 0%,rgba(82,86,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(206,212,255,1) 0%,rgba(82,86,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ced4ff', endColorstr='#525677',GradientType=0 ); /* IE6-9 */
+}
+
+#superstar #anton .background {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9fffe+0,49a09f+100 */
+  background: rgb(201,255,254); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(201,255,254,1) 0%, rgba(73,160,159,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(201,255,254,1) 0%,rgba(73,160,159,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(201,255,254,1) 0%,rgba(73,160,159,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9fffe', endColorstr='#49a09f',GradientType=0 ); /* IE6-9 */
+}
+
+#superstar .avatar {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 60px;
+  left: 110px;
+  z-index: 1;
+  border: 2px solid white;
+  background-color: white;
+  background-size: cover;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+}
+
+#superstar #danila .avatar {
+  background-image: url(../images/danila.jpg);
+}
+
+#superstar #vadim .avatar {
+  background-image: url(../images/vadim.jpg);
+}
+
+#superstar #anton .avatar {
+  background-image: url(../images/anton.jpg);
+}
+
+#superstar .info {
+  padding: 70px 25px 25px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+#superstar .info h3 {
+  font-size: 20px;
+}
+
+#superstar .info h4 {
+  min-height: 32px;
+  margin: 10px 0 46px;
+  font-size: 14px;
+}
+
+#superstar .info p {
+  font-size: 24px;
+}
