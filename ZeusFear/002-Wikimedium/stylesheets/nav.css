@@ -1,0 +1,63 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:active {
+  color: gray;
+}
+
+
+nav #menuIcon {
+  width: 24px;
+  padding: 8px;
+}
+
+
+nav #menuIcon div {
+  height: 3px;
+  background-color: white;
+}
+
+ nav #menuIcon div:nth-child(2) {
+margin: 4px 0;
+}
+
+
+nav ul {
+  display: none;
+}
+
+nav li {
+  margin-bottom: 14px;
+  font-family: Halvetica, Aril, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav:hover #menuIcon {
+  display: none;
+}
+
+nav:hover ul {
+  display: block;
+}
+
+nav:hover {
+  box-sizing: border-box;
+  width: 320px;
+  padding: 40px;
+}
