@@ -3,11 +3,6 @@
   height: 680px;
   background-color: blue;
   color: white;
-  transition: all 3s;
-}
-
-#welcome:hover {
-  background-color: red;
 }
 
 #welcome .videoWrapper {
@@ -18,9 +13,15 @@
 }
 
 #welcome .videoWrapper .overlay {
+  position: absolute;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 255, .5);
+  transition: all 3s;
+}
+
+#welcome:hover .videoWrapper .overlay {
+  background-color: rgba(255, 0, 0, .5);
 }
 
 #welcome .videoWrapper video {
@@ -34,6 +35,8 @@
   display: -webkit-flex;
   display: flex;
 
+  position: absolute;
+  width: 100%;
   height: 680px;
 }
 
