@@ -1,0 +1,167 @@
+body {
+  min-width: 940px;
+  font-family: "HelveticaNeue-Light", Arial, sans-serif;
+  background-color: gray;
+}
+
+#welcome,
+#about,
+#portfolio {
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+
+#welcome footer,
+#about header,
+#about article,
+#portfolio header {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#about header,
+#portfolio header {
+  padding: 70px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h3 { font-size: 24px; }
+h2 { font-size: 34px; }
+
+p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/*Welcome section*/
+
+#welcome section {
+  background-image: url(../images/header-bg.jpg);
+  height: 550px;
+  /*Изображение на всю ширину экрана*/
+  background-size: cover;
+  /*Отвечает за статичность картинки при прокрутке*/
+  background-attachment: fixed;
+}
+
+#welcome h1,
+#welcome p {
+  margin-left: 175px;
+}
+
+#welcome aside {
+  box-sizing: border-box;
+  float: left;
+  width: 148px;
+  height: 148px;
+  background-image: url(../images/userpic.jpg);
+  background-size: cover;
+  margin-top: -64px;
+  border: 4px solid white;
+  border-radius: 5px;
+}
+
+#welcome footer {
+  min-height: 74px;
+  padding: 16px 0;
+}
+
+/*About section*/
+
+#about {
+  padding-bottom: 100px;
+}
+
+#about h3 {
+  margin-top: 84px;
+}
+
+#about #promo {
+  float: right;
+}
+
+#about #clock {
+  float: left;
+  width: 340px;
+  margin: 80px 100px 0 -60px;
+}
+
+/*Portfolio section*/
+
+.works li {
+  position: relative;
+  width: 33.3333%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.works li:hover figcaption {
+  margin-top: -86px;
+  opacity: 1;
+}
+
+.works img {
+  width: 100%;
+}
+
+.works figcaption {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0,0,0,.6);
+  color: white;
+  transition:  all .3s ease-uot;
+  opacity: 0;
+}
+
+.works h3 {
+  font-size: 16px;
+}
+
+.works p {
+    font-size: 12px;
+}
+
+#inline {
+  font-size: 0;
+}
+
+#inline li {
+  display: inline-block;
+}
+
+#flex {
+  display: flex;
+}
+
+
+/*Contacts section*/
+
+#contacts {
+  padding: 100px 0;
+  text-align: center;
+}
+
+#contacts a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+}
+
+#facebook {
+  background-image: url(images/social-facebook.png);
+}
+
+#instagram {
+  background-image: url(images/social-instagram.png);
+}
+
+#vk {
+  background-image: url(images/social-vk.png);
+}

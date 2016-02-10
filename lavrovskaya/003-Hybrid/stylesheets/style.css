@@ -1,0 +1,10 @@
+@import 'reset.css';
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic|PT+Sans+Caption:400,700&subset=latin,cyrillic-ext);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+@import 'basics.css';
+@import 'welcome.css';
+@import 'iphones.css';
+@import 'superstar.css';
+@import 'projects.css';
+@import 'vimeo.css';

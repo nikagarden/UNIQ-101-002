@@ -1,0 +1,24 @@
+body {
+  width: 700px;
+  height: 17386px;
+  margin: 0 auto;
+  background-image: url(dom_narkomfina_bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+p, li {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+p:first-of-type {
+  margin-top: 230px;
+}
+
+h2 + p {
+  margin-top: 8px;
+}

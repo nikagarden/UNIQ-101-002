@@ -1,0 +1,39 @@
+h1 {
+  font-size: 61px;
+  letter-spacing: -2px;
+  margin-top: 215px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  margin-top: 46px;
+}
+
+h3 {
+  font-size: 29.5px;
+  line-height: 31px;
+  margin-top: 62px;
+}
+
+p {
+  font-size: 22px;
+  letter-spacing: 0.16px;
+}
+
+li {
+  font-size: 22.5px;
+  letter-spacing: -0.1px;
+}
+
+h2.wide-letter-spacing {
+  letter-spacing: 0.45px;
+}
+
+h2.narrow-letter-spacing {
+  letter-spacing: -0.38px;
+}
+
+h3.wide-letter-spacing {
+  letter-spacing: 0.28px;
+}

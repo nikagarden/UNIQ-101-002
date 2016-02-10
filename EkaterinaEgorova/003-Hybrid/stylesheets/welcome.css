@@ -1,0 +1,106 @@
+#welcome {
+  position: relative;
+  height: 680px;
+  background-color: blue;
+  color: white;
+}
+
+#welcome .videoWrapper {
+  position: absolute;
+  width: 100%;
+  height: 680px;
+  overflow: hidden;
+}
+
+#welcome .videoWrapper .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, .5);
+  transition: all 3s;
+}
+
+#welcome:hover .videoWrapper .overlay {
+  background-color: rgba(255, 0, 0, .5);
+}
+
+#welcome .videoWrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#welcome .textWrapper {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  position: absolute;
+  width: 100%;
+  height: 680px;
+}
+
+#welcome .textWrapper h1 {
+  margin: auto;
+  text-align: center;
+  font-size: 60px;
+}
+
+#welcome .textWrapper i {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  font-size: 26px;
+  text-align: center;
+
+  animation: bounce ease-in-out 3s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+
+  -webkit-animation: bounce ease-in-out 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+
+  -moz-animation: bounce ease-in-out 3s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+
+  -o-animation: bounce ease-in-out 3s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+
+  -ms-animation: bounce ease-in-out 3s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes bounce{
+  0%   { transform: translate(0px, 0px);  }
+  50%  { transform: translate(0px, 20px); }
+  100% { transform: translate(0px, 0px);  }
+}
+
+@-moz-keyframes bounce{
+  0%   { -moz-transform: translate(0px, 0px);  }
+  50%  { -moz-transform: translate(0px, 20px); }
+  100% { -moz-transform: translate(0px, 0px);  }
+}
+
+@-webkit-keyframes bounce {
+  0%   { -webkit-transform: translate(0px, 0px);  }
+  50%  { -webkit-transform: translate(0px, 20px); }
+  100% { -webkit-transform: translate(0px, 0px);  }
+}
+
+@-o-keyframes bounce {
+  0%   { -o-transform: translate(0px, 0px);  }
+  50%  { -o-transform: translate(0px, 20px); }
+  100% { -o-transform: translate(0px, 0px);  }
+}
+
+@-ms-keyframes bounce {
+  0%   { -ms-transform: translate(0px, 0px);  }
+  50%  { -ms-transform: translate(0px, 20px); }
+  100% { -ms-transform: translate(0px, 0px);  }
+}
