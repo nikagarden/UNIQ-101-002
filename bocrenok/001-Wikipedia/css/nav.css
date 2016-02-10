@@ -1,0 +1,61 @@
+nav{
+  position: fixed;
+  top:0;
+  left:0;
+  width:40px;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+nav:hover{
+  box-sizing: border-box;
+  width:320px;
+  padding: 40px;
+}
+
+nav ul{
+  display: none;
+}
+
+nav:hover ul{
+  display: block;
+}
+
+nav:hover #menuIcon{
+  display:none;
+}
+
+#menuIcon{
+  width:24px;
+  padding: 8px;
+}
+
+#menuIcon div{
+  height: 3px;
+  background-color: white;
+}
+
+#menuIcon div:nth-child(2){
+  margin: 4px 0;
+}
+
+nav li{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 14px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+nav a:active{
+  color:blue;
+}
