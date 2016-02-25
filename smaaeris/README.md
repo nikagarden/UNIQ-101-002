@@ -1,1 +1,0 @@
-Makankova Svetlana
